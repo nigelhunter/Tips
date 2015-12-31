@@ -14,6 +14,8 @@
 		124EFB8C1C25155600BFEFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124EFB8A1C25155600BFEFC1 /* LaunchScreen.storyboard */; };
 		124EFB971C25155600BFEFC1 /* TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124EFB961C25155600BFEFC1 /* TipsTests.swift */; };
 		124EFBA21C25155600BFEFC1 /* TipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124EFBA11C25155600BFEFC1 /* TipsUITests.swift */; };
+		124EFBB01C251E9400BFEFC1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124EFBAF1C251E9400BFEFC1 /* SettingsViewController.swift */; };
+		12D2BFB71C34EC6E0097440E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D2BFB61C34EC6E0097440E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		124EFB9D1C25155600BFEFC1 /* TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		124EFBA11C25155600BFEFC1 /* TipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsUITests.swift; sourceTree = "<group>"; };
 		124EFBA31C25155600BFEFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124EFBAF1C251E9400BFEFC1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		12D2BFB61C34EC6E0097440E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		124EFB751C25155500BFEFC1 = {
 			isa = PBXGroup;
 			children = (
+				12D2BFB61C34EC6E0097440E /* Default-568h@2x.png */,
 				124EFB801C25155600BFEFC1 /* Tips */,
 				124EFB951C25155600BFEFC1 /* TipsTests */,
 				124EFBA01C25155600BFEFC1 /* TipsUITests */,
@@ -97,6 +102,7 @@
 		124EFB801C25155600BFEFC1 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
+				124EFBAF1C251E9400BFEFC1 /* SettingsViewController.swift */,
 				124EFB811C25155600BFEFC1 /* AppDelegate.swift */,
 				124EFB831C25155600BFEFC1 /* ViewController.swift */,
 				124EFB851C25155600BFEFC1 /* Main.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				124EFB8C1C25155600BFEFC1 /* LaunchScreen.storyboard in Resources */,
+				12D2BFB71C34EC6E0097440E /* Default-568h@2x.png in Resources */,
 				124EFB891C25155600BFEFC1 /* Assets.xcassets in Resources */,
 				124EFB871C25155600BFEFC1 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				124EFB841C25155600BFEFC1 /* ViewController.swift in Sources */,
 				124EFB821C25155600BFEFC1 /* AppDelegate.swift in Sources */,
+				124EFBB01C251E9400BFEFC1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nigelhunter.Tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nigelhunter.Tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +495,7 @@
 				124EFBA81C25155600BFEFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		124EFBA91C25155600BFEFC1 /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +504,7 @@
 				124EFBAB1C25155600BFEFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		124EFBAC1C25155600BFEFC1 /* Build configuration list for PBXNativeTarget "TipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +513,7 @@
 				124EFBAE1C25155600BFEFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
