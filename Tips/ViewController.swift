@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
-    @IBOutlet weak var navigationitem: UINavigationItem!
     
     
     let defaults = NSUserDefaults.standardUserDefaults()
